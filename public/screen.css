@@ -5,5 +5,29 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 20px / 1 sans-serif;
+  background: url('https://media.giphy.com/media/l0HlPwMAzh13pcZ20/giphy.gif');
+  background-size: 90vw;
+  background-position: center;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: royalblue;
+}
+.io {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 5vw;
+}
+.weather {
+  width: 40vw;
+}
+.conditions {
+  list-style: none;
+}
+h1 {
+  text-align: center;
+}
+.location {
+  padding: 20px 0;
 }
